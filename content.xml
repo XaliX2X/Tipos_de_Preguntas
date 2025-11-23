@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ode><userPreferences><userPreference><key>theme</key><value>flux</value></userPreference></userPreferences><odeResources><odeResource><key>odeVersionId</key><value>20251123005217VDOADO</value></odeResource><odeResource><key>odeId</key><value>20251123001911TSNMTI</value></odeResource><odeResource><key>odeVersionName</key><value>0</value></odeResource><odeResource><key>isDownload</key><value>true</value></odeResource></odeResources><odeProperties><odeProperty><key>pp_title</key><value>Tipos de Preguntas</value></odeProperty><odeProperty><key>pp_lang</key><value/></odeProperty><odeProperty><key>pp_author</key><value/></odeProperty><odeProperty><key>license</key><value>creative commons: attribution - share alike 4.0</value></odeProperty><odeProperty><key>pp_description</key><value/></odeProperty><odeProperty><key>exportSource</key><value>true</value></odeProperty><odeProperty><key>pp_addExeLink</key><value>true</value></odeProperty><odeProperty><key>pp_exportElp</key><value>false</value></odeProperty><odeProperty><key>pp_addPagination</key><value>false</value></odeProperty><odeProperty><key>pp_addSearchBox</key><value>false</value></odeProperty><odeProperty><key>pp_addAccessibilityToolbar</key><value>false</value></odeProperty><odeProperty><key>pp_extraHeadContent</key><value/></odeProperty><odeProperty><key>footer</key><value/></odeProperty></odeProperties><odeNavStructures><odeNavStructure><odePageId>20251123005219IOGPIF</odePageId><odeParentPageId/><pageName>Tipos de Preguntas</pageName><odeNavStructureOrder>1</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>Tipos de Preguntas</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>Tipos de Preguntas</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20251123005219IOGPIF</odePageId><odeBlockId>20251123005219EGZNEN</odeBlockId><blockName/><iconName>checklist_rtl</iconName><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20251123005219IOGPIF</odePageId><odeBlockId>20251123005219EGZNEN</odeBlockId><odeIdeviceId>20251122192002069F9D</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;style&gt;
+        /* Reset y configuración base */
+        .quiz-wrapper * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Contenedor Principal con fondo abstracto */
+        .quiz-wrapper {
+            font-family: 'Poppins', sans-serif; /* Fuente moderna */
+            padding: 30px;
+            background: linear-gradient(135deg, #f0f8ff 0%, #e6f2ff 100%); /* Degradado de fondo muy suave */
+            border-radius: 20px; /* Bordes más redondeados */
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+            max-width: 950px; /* Ancho máximo aumentado */
+            margin: 30px auto; /* Centrar con más margen */
+            position: relative;
+            overflow: hidden; /* Para ocultar el overflow de posibles elementos de fondo */
+        }
+
+        /* --- ESTILOS DEL BANNER/PORTADA IMPACTANTE --- */
+        .banner {
+            background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%); /* Degradado más vibrante */
+            color: white;
+            padding: 40px 30px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+            animation: fadeIn 1s ease-out; /* Animación de entrada */
+        }
+
+        /* Efecto de ondas o patrón sutil en el banner */
+        .banner::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 0% 0%, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+            transform: rotate(20deg);
+            opacity: 0.8;
+        }
+        .banner::after {
+            content: '';
+            position: absolute;
+            bottom: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 100% 100%, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 70%);
+            transform: rotate(20deg);
+            opacity: 0.8;
+        }
+
+
+        .banner h1 {
+            font-family: 'Montserrat', sans-serif; /* Otra fuente para el título principal */
+            font-size: 2.8em;
+            margin-bottom: 12px;
+            letter-spacing: 2px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+            font-weight: 800;
+        }
+
+        .banner h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            font-weight: 600;
+            opacity: 0.9;
+        }
+
+        .banner p {
+            font-size: 1.2em;
+            margin-bottom: 6px;
+            line-height: 1.5;
+            opacity: 0.8;
+        }
+        
+        .banner hr {
+            border: none;
+            border-top: 2px solid rgba(255, 255, 255, 0.6);
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        /* --- Título Principal de Actividades --- */
+        .quiz-wrapper &gt; h2 { 
+            text-align: center;
+            color: #333;
+            border-bottom: 4px solid #6a11cb; /* Borde más grueso y del color del gradiente */
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+            font-size: 32px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+            animation: slideInLeft 0.8s ease-out; /* Animación de entrada */
+        }
+
+        /* --- Estilo para cada Sección de Pregunta (Cards) --- */
+        .question-item {
+            background: linear-gradient(145deg, #ffffff 0%, #f9f9f9 100%); /* Degradado suave en la tarjeta */
+            border: 1px solid #e0e0e0;
+            border-radius: 18px; /* Bordes más redondeados */
+            padding: 30px;
+            margin-bottom: 35px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra más definida */
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); /* Transición suave con animación */
+            position: relative;
+            overflow: hidden;
+        }
+
+        .question-item:hover {
+            border-color: #2575fc; /* Borde al pasar el ratón */
+            box-shadow: 0 15px 45px rgba(37, 117, 252, 0.3); /* Sombra de color al pasar el ratón */
+            transform: translateY(-5px) scale(1.01); /* Elevación y ligero aumento al pasar el ratón */
+        }
+        
+        /* Icono decorativo en la esquina de cada tarjeta (simulado) */
+        .question-item::before {
+            content: '✨'; /* Un emoji o puedes poner un background-image con un SVG */
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 2.5em;
+            opacity: 0.2;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        /* --- Título de la Pregunta (Ej: TIPO 1: Opción Simple) --- */
+        .question-item h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+            font-weight: 700;
+            background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%); /* Degradado en el título */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        .question-item h3 span {
+            font-size: 1.6em; /* Número más grande y audaz */
+            margin-right: 15px;
+            font-weight: 900;
+            -webkit-text-fill-color: #6a11cb; /* Color fijo para el número principal */
+            background: none; 
+            text-shadow: none;
+        }
+
+        /* --- Bloque de Instrucciones --- */
+        .instruction-box {
+            background: #e6f7ff; /* Color de fondo más suave y claro */
+            border-left: 8px solid #2575fc; /* Borde más grueso y del color del degradado */
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 0 12px 12px 0;
+            font-size: 16px;
+            color: #4a4a4a;
+            line-height: 1.7;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            position: relative;
+            overflow: hidden;
+            animation: slideInRight 0.8s ease-out; /* Animación de entrada */
+        }
+        
+        .instruction-box strong {
+            color: #2a2a2a;
+            font-weight: 700;
+        }
+        .instruction-box p {
+            margin-top: 12px;
+            font-weight: 500;
+            color: #333;
+        }
+        /* Icono decorativo en el instruction-box */
+        .instruction-box::before {
+            content: '💡';
+            position: absolute;
+            bottom: -10px;
+            right: -10px;
+            font-size: 4em;
+            opacity: 0.1;
+            pointer-events: none;
+        }
+
+
+        /* --- Estilo del Iframe --- */
+        .question-iframe {
+            width: 100%;
+            height: 500px; /* Altura estándar aumentada para más espacio */
+            border: 3px solid #b0c4de; /* Borde más pronunciado */
+            border-radius: 12px;
+            overflow: hidden;
+            background-color: #ffffff; 
+            box-shadow: inset 0 0 15px rgba(0,0,0,0.08); /* Sombra interna más fuerte */
+            transition: all 0.3s ease;
+        }
+        
+        .question-iframe:hover {
+            border-color: #6a11cb; /* Borde al pasar el ratón por el iframe */
+        }
+
+        /* Ajuste de altura para preguntas largas (Base Común) */
+        #q7-iframe {
+            height: 700px; /* Más espacio para la pregunta 7 */
+        }
+
+        /* Ajustes para preguntas específicas que puedan ser más cortas o largas */
+        #q8-iframe, #q5-iframe, #q10-iframe { 
+            height: 420px; 
+        }
+        #q9-iframe { /* Emparejamiento puede variar */
+            height: 580px;
+        }
+
+        /* --- KEYFRAMES PARA ANIMACIONES --- */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideInLeft {
+            from { opacity: 0; transform: translateX(-50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        /* --- Responsive design --- */
+        @media (max-width: 768px) {
+            .quiz-wrapper {
+                padding: 15px;
+                margin: 15px auto;
+            }
+            .banner {
+                padding: 25px 15px;
+            }
+            .banner h1 {
+                font-size: 2em;
+            }
+            .banner h2 {
+                font-size: 1.4em;
+            }
+            .banner p {
+                font-size: 1em;
+            }
+            .quiz-wrapper &gt; h2 {
+                font-size: 26px;
+            }
+            .question-item h3 {
+                font-size: 20px;
+            }
+            .instruction-box {
+                font-size: 14px;
+            }
+            .question-iframe {
+                height: 450px;
+            }
+            #q7-iframe {
+                height: 600px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .banner h1 {
+                font-size: 1.6em;
+            }
+            .banner h2 {
+                font-size: 1.1em;
+            }
+            .banner p {
+                font-size: 0.9em;
+            }
+            .quiz-wrapper &gt; h2 {
+                font-size: 22px;
+                padding-bottom: 12px;
+            }
+            .question-item h3 {
+                font-size: 18px;
+            }
+            .question-item h3 span {
+                font-size: 1.4em;
+            }
+            .instruction-box {
+                padding: 12px;
+            }
+            .question-iframe {
+                height: 380px;
+            }
+            #q7-iframe {
+                height: 500px;
+            }
+        }
+
+        /* Importar fuentes de Google Fonts (opcional, si eXeLearning lo permite o si el entorno tiene acceso) */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&amp;family=Poppins:wght@400;500;600;700&amp;display=swap');
+    &lt;/style&gt;
+&lt;div class="quiz-wrapper"&gt;
+&lt;div class="banner"&gt;
+&lt;h1&gt;Universidad Nacional de Loja&lt;/h1&gt;
+&lt;h2&gt;Materia: Evaluación de los los Aprendizajes&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Docente: Mgs. Sonia Zhadira Celi&lt;/p&gt;
+&lt;p&gt;Alumno: Ronaldo Lenin Piedra Vega&lt;/p&gt;
+&lt;p&gt;Carrera: Pedagogía de las Ciencias Experimentales - Informática&lt;/p&gt;
+&lt;p&gt;Quinto Ciclo&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2&gt;Tipos de preguntas&lt;/h2&gt;
+&lt;div class="question-item"&gt;
+&lt;h3&gt;&lt;span style="color: #4caf50;"&gt;1.&lt;/span&gt; Pregunta de Opción Simple&lt;/h3&gt;
+&lt;div class="instruction-box"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Selecciona la opción que consideres correcta. &lt;strong&gt;Solo una respuesta es válida.&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt; ¿Cuál es la finalidad principal de la evaluación formativa según el enfoque actual?&lt;/p&gt;
+&lt;/div&gt;
+&lt;iframe width="300" height="1000" src="{{context_path}}/20251122192002069F9D/Opcion_Simple._1.html" id="q1-iframe" class="question-iframe"&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="question-item"&gt;
+&lt;h3&gt;&lt;span style="color: #ffc107;"&gt;2.&lt;/span&gt; Pregunta de Opción Múltiple&lt;/h3&gt;
+&lt;div class="instruction-box"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Marca todas las opciones que sean correctas. &lt;strong&gt;Puede haber más de una respuesta válida&lt;/strong&gt;.
+&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt; Seleccione las características que corresponden a una evaluación educativa.&lt;/p&gt;
+&lt;/div&gt;
+&lt;iframe width="300" height="1000" src="{{context_path}}/20251122192002069F9D/Opcion_Multiple._1.html" id="q2-iframe" class="question-iframe"&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="question-item"&gt;
+&lt;h3&gt;&lt;span style="color: #2196f3;"&gt;3.&lt;/span&gt; Seleccionar la Mejor Respuesta&lt;/h3&gt;
+&lt;div class="instruction-box"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; De todas las opciones, selecciona la que &lt;strong&gt;mejor &lt;/strong&gt;responda la pregunta.
+&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt; ¿Qué distingue principalmente la evaluación educativa de la mera calificación?&lt;/p&gt;
+&lt;/div&gt;
+&lt;iframe width="300" height="1000" src="{{context_path}}/20251122192002069F9D/Mejor_respuesta._1.html" id="q3-iframe" class="question-iframe"&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="question-item"&gt;
+&lt;h3&gt;&lt;span style="color: #e91e63;"&gt;4.&lt;/span&gt; Pregunta de Ordenamiento&lt;/h3&gt;
+&lt;div class="instruction-box"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Ordena cronológicamente los elementos en la secuencia correcta, del primero al último aporte.
+&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt; Ordene estos aportes dentro de la evolución del concepto de evaluación.&lt;/p&gt;
+&lt;/div&gt;
+&lt;iframe width="400" height="1000" src="{{context_path}}/20251122192002069F9D/Pregunta_de_Ordenamiento._1.html" id="q4-iframe" class="question-iframe"&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="question-item"&gt;
+&lt;h3&gt;&lt;span style="color: #9c27b0;"&gt;5.&lt;/span&gt; Pregunta de Respuesta Libre&lt;/h3&gt;
+&lt;div class="instruction-box"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Explica tu respuesta en el espacio proporcionado. Sé claro y conciso.
+&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt; Explique brevemente qué significa que la evaluación sea “criterial”.&lt;/p&gt;
+&lt;/div&gt;
+&lt;iframe width="500" height="1000" src="{{context_path}}/20251122192002069F9D/Respuesta_Libre._1.html" id="q5-iframe" class="question-iframe"&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="question-item"&gt;
+&lt;h3&gt;&lt;span style="color: #ff5722;"&gt;6.&lt;/span&gt; Seleccionar la Respuesta Incorrecta&lt;/h3&gt;
+&lt;div class="instruction-box"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; De todas las opciones, selecciona la que &lt;strong&gt;NO es una función&lt;/strong&gt; o no corresponde al contexto.
+&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt; ¿Cuál de las siguientes NO es una función de la evaluación educativa?&lt;/p&gt;
+&lt;/div&gt;
+&lt;iframe width="300" height="1000" src="{{context_path}}/20251122192002069F9D/Respuesta_Incorrecta._1.html" id="q6-iframe" class="question-iframe"&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="question-item"&gt;
+&lt;h3&gt;&lt;span style="color: #009688;"&gt;7.&lt;/span&gt; Pregunta con Base Común&lt;/h3&gt;
+&lt;div class="instruction-box"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; &lt;strong&gt;Lee cuidadosamente el texto base&lt;/strong&gt; y luego responde las preguntas relacionadas dentro del formulario.
+&lt;p&gt;&lt;strong&gt;Texto base:&lt;/strong&gt; “La evaluación educativa actual se concibe como un proceso sistemático integrado al aprendizaje, cuyo fin es regular, orientar y mejorar los procesos educativos. Su carácter formativo la convierte en una herramienta clave para la toma de decisiones y para favorecer el progreso del estudiante.”&lt;/p&gt;
+&lt;/div&gt;
+&lt;iframe width="400" height="1000" src="{{context_path}}/20251122192002069F9D/Base_Comun._1.html" id="q7-iframe" class="question-iframe"&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="question-item"&gt;
+&lt;h3&gt;&lt;span style="color: #607d8b;"&gt;8.&lt;/span&gt; Pregunta de Verdadero o Falso&lt;/h3&gt;
+&lt;div class="instruction-box"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Determina si la afirmación presentada es &lt;strong&gt;Verdadera&lt;/strong&gt;&amp;nbsp;o &lt;strong&gt;Falsa&lt;/strong&gt;.
+&lt;p&gt;&lt;strong&gt;Afirmación:&lt;/strong&gt; “La evaluación normativa compara el desempeño del alumno con criterios previamente establecidos.”&lt;/p&gt;
+&lt;/div&gt;
+&lt;iframe width="200" height="1000" src="{{context_path}}/20251122192002069F9D/Verdadero_Falso._1.html" id="q8-iframe" class="question-iframe"&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="question-item"&gt;
+&lt;h3&gt;&lt;span style="color: #795548;"&gt;9.&lt;/span&gt; Pregunta de Emparejamiento&lt;/h3&gt;
+&lt;div class="instruction-box"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Relaciona cada concepto de la columna izquierda con su definición en la columna derecha. Ingresa el número correspondiente.
+&lt;p&gt;&lt;strong&gt;Conceptos:&lt;/strong&gt; 1. Evaluación diagnóstica, 2. Evaluación procesual, 3. Evaluación sumativa.&lt;/p&gt;
+&lt;/div&gt;
+&lt;iframe width="300" height="1000" src="{{context_path}}/20251122192002069F9D/Emparejamiento._1.html" id="q9-iframe" class="question-iframe"&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="question-item"&gt;
+&lt;h3&gt;&lt;span style="color: #ff9800;"&gt;10.&lt;/span&gt; Pregunta de Completar Ideas&lt;/h3&gt;
+&lt;div class="instruction-box"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Lee la frase incompleta y escribe la palabra o concepto que falta para completarla correctamente.&lt;/div&gt;
+&lt;iframe width="500" height="1000" src="{{context_path}}/20251122192002069F9D/Completar_Ideas._1.html" id="q10-iframe" class="question-iframe"&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20251122192002069F9D","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;style&gt;\n        /* Reset y configuración base */\n        .quiz-wrapper * {\n            box-sizing: border-box;\n            margin: 0;\n            padding: 0;\n        }\n\n        /* Contenedor Principal con fondo abstracto */\n        .quiz-wrapper {\n            font-family: 'Poppins', sans-serif; /* Fuente moderna */\n            padding: 30px;\n            background: linear-gradient(135deg, #f0f8ff 0%, #e6f2ff 100%); /* Degradado de fondo muy suave */\n            border-radius: 20px; /* Bordes más redondeados */\n            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */\n            max-width: 950px; /* Ancho máximo aumentado */\n            margin: 30px auto; /* Centrar con más margen */\n            position: relative;\n            overflow: hidden; /* Para ocultar el overflow de posibles elementos de fondo */\n        }\n\n        /* --- ESTILOS DEL BANNER/PORTADA IMPACTANTE --- */\n        .banner {\n            background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%); /* Degradado más vibrante */\n            color: white;\n            padding: 40px 30px;\n            border-radius: 15px;\n            margin-bottom: 40px;\n            text-align: center;\n            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);\n            position: relative;\n            overflow: hidden;\n            animation: fadeIn 1s ease-out; /* Animación de entrada */\n        }\n\n        /* Efecto de ondas o patrón sutil en el banner */\n        .banner::before {\n            content: '';\n            position: absolute;\n            top: -50%;\n            left: -50%;\n            width: 200%;\n            height: 200%;\n            background: radial-gradient(circle at 0% 0%, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);\n            transform: rotate(20deg);\n            opacity: 0.8;\n        }\n        .banner::after {\n            content: '';\n            position: absolute;\n            bottom: -50%;\n            right: -50%;\n            width: 200%;\n            height: 200%;\n            background: radial-gradient(circle at 100% 100%, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 70%);\n            transform: rotate(20deg);\n            opacity: 0.8;\n        }\n\n\n        .banner h1 {\n            font-family: 'Montserrat', sans-serif; /* Otra fuente para el título principal */\n            font-size: 2.8em;\n            margin-bottom: 12px;\n            letter-spacing: 2px;\n            text-shadow: 3px 3px 6px rgba(0,0,0,0.4);\n            font-weight: 800;\n        }\n\n        .banner h2 {\n            font-size: 1.8em;\n            margin-bottom: 10px;\n            font-weight: 600;\n            opacity: 0.9;\n        }\n\n        .banner p {\n            font-size: 1.2em;\n            margin-bottom: 6px;\n            line-height: 1.5;\n            opacity: 0.8;\n        }\n        \n        .banner hr {\n            border: none;\n            border-top: 2px solid rgba(255, 255, 255, 0.6);\n            width: 60%;\n            margin: 20px auto;\n        }\n\n        /* --- Título Principal de Actividades --- */\n        .quiz-wrapper &gt; h2 { \n            text-align: center;\n            color: #333;\n            border-bottom: 4px solid #6a11cb; /* Borde más grueso y del color del gradiente */\n            padding-bottom: 20px;\n            margin-bottom: 40px;\n            font-size: 32px;\n            font-weight: 800;\n            text-transform: uppercase;\n            letter-spacing: 1.5px;\n            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);\n            animation: slideInLeft 0.8s ease-out; /* Animación de entrada */\n        }\n\n        /* --- Estilo para cada Sección de Pregunta (Cards) --- */\n        .question-item {\n            background: linear-gradient(145deg, #ffffff 0%, #f9f9f9 100%); /* Degradado suave en la tarjeta */\n            border: 1px solid #e0e0e0;\n            border-radius: 18px; /* Bordes más redondeados */\n            padding: 30px;\n            margin-bottom: 35px;\n            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra más definida */\n            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); /* Transición suave con animación */\n            position: relative;\n            overflow: hidden;\n        }\n\n        .question-item:hover {\n            border-color: #2575fc; /* Borde al pasar el ratón */\n            box-shadow: 0 15px 45px rgba(37, 117, 252, 0.3); /* Sombra de color al pasar el ratón */\n            transform: translateY(-5px) scale(1.01); /* Elevación y ligero aumento al pasar el ratón */\n        }\n        \n        /* Icono decorativo en la esquina de cada tarjeta (simulado) */\n        .question-item::before {\n            content: '✨'; /* Un emoji o puedes poner un background-image con un SVG */\n            position: absolute;\n            top: 15px;\n            right: 20px;\n            font-size: 2.5em;\n            opacity: 0.2;\n            pointer-events: none;\n            z-index: 1;\n        }\n\n        /* --- Título de la Pregunta (Ej: TIPO 1: Opción Simple) --- */\n        .question-item h3 {\n            font-family: 'Montserrat', sans-serif;\n            font-size: 24px;\n            margin-bottom: 18px;\n            display: flex;\n            align-items: center;\n            font-weight: 700;\n            background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%); /* Degradado en el título */\n            -webkit-background-clip: text;\n            -webkit-text-fill-color: transparent;\n            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);\n        }\n        \n        .question-item h3 span {\n            font-size: 1.6em; /* Número más grande y audaz */\n            margin-right: 15px;\n            font-weight: 900;\n            -webkit-text-fill-color: #6a11cb; /* Color fijo para el número principal */\n            background: none; \n            text-shadow: none;\n        }\n\n        /* --- Bloque de Instrucciones --- */\n        .instruction-box {\n            background: #e6f7ff; /* Color de fondo más suave y claro */\n            border-left: 8px solid #2575fc; /* Borde más grueso y del color del degradado */\n            padding: 20px;\n            margin-bottom: 25px;\n            border-radius: 0 12px 12px 0;\n            font-size: 16px;\n            color: #4a4a4a;\n            line-height: 1.7;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);\n            position: relative;\n            overflow: hidden;\n            animation: slideInRight 0.8s ease-out; /* Animación de entrada */\n        }\n        \n        .instruction-box strong {\n            color: #2a2a2a;\n            font-weight: 700;\n        }\n        .instruction-box p {\n            margin-top: 12px;\n            font-weight: 500;\n            color: #333;\n        }\n        /* Icono decorativo en el instruction-box */\n        .instruction-box::before {\n            content: '💡';\n            position: absolute;\n            bottom: -10px;\n            right: -10px;\n            font-size: 4em;\n            opacity: 0.1;\n            pointer-events: none;\n        }\n\n\n        /* --- Estilo del Iframe --- */\n        .question-iframe {\n            width: 100%;\n            height: 500px; /* Altura estándar aumentada para más espacio */\n            border: 3px solid #b0c4de; /* Borde más pronunciado */\n            border-radius: 12px;\n            overflow: hidden;\n            background-color: #ffffff; \n            box-shadow: inset 0 0 15px rgba(0,0,0,0.08); /* Sombra interna más fuerte */\n            transition: all 0.3s ease;\n        }\n        \n        .question-iframe:hover {\n            border-color: #6a11cb; /* Borde al pasar el ratón por el iframe */\n        }\n\n        /* Ajuste de altura para preguntas largas (Base Común) */\n        #q7-iframe {\n            height: 700px; /* Más espacio para la pregunta 7 */\n        }\n\n        /* Ajustes para preguntas específicas que puedan ser más cortas o largas */\n        #q8-iframe, #q5-iframe, #q10-iframe { \n            height: 420px; \n        }\n        #q9-iframe { /* Emparejamiento puede variar */\n            height: 580px;\n        }\n\n        /* --- KEYFRAMES PARA ANIMACIONES --- */\n        @keyframes fadeIn {\n            from { opacity: 0; transform: translateY(-20px); }\n            to { opacity: 1; transform: translateY(0); }\n        }\n\n        @keyframes slideInLeft {\n            from { opacity: 0; transform: translateX(-50px); }\n            to { opacity: 1; transform: translateX(0); }\n        }\n\n        @keyframes slideInRight {\n            from { opacity: 0; transform: translateX(50px); }\n            to { opacity: 1; transform: translateX(0); }\n        }\n\n        /* --- Responsive design --- */\n        @media (max-width: 768px) {\n            .quiz-wrapper {\n                padding: 15px;\n                margin: 15px auto;\n            }\n            .banner {\n                padding: 25px 15px;\n            }\n            .banner h1 {\n                font-size: 2em;\n            }\n            .banner h2 {\n                font-size: 1.4em;\n            }\n            .banner p {\n                font-size: 1em;\n            }\n            .quiz-wrapper &gt; h2 {\n                font-size: 26px;\n            }\n            .question-item h3 {\n                font-size: 20px;\n            }\n            .instruction-box {\n                font-size: 14px;\n            }\n            .question-iframe {\n                height: 450px;\n            }\n            #q7-iframe {\n                height: 600px;\n            }\n        }\n\n        @media (max-width: 480px) {\n            .banner h1 {\n                font-size: 1.6em;\n            }\n            .banner h2 {\n                font-size: 1.1em;\n            }\n            .banner p {\n                font-size: 0.9em;\n            }\n            .quiz-wrapper &gt; h2 {\n                font-size: 22px;\n                padding-bottom: 12px;\n            }\n            .question-item h3 {\n                font-size: 18px;\n            }\n            .question-item h3 span {\n                font-size: 1.4em;\n            }\n            .instruction-box {\n                padding: 12px;\n            }\n            .question-iframe {\n                height: 380px;\n            }\n            #q7-iframe {\n                height: 500px;\n            }\n        }\n\n        /* Importar fuentes de Google Fonts (opcional, si eXeLearning lo permite o si el entorno tiene acceso) */\n        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&amp;family=Poppins:wght@400;500;600;700&amp;display=swap');\n    &lt;/style&gt;\n&lt;div class=\"quiz-wrapper\"&gt;\n&lt;div class=\"banner\"&gt;\n&lt;h1&gt;Universidad Nacional de Loja&lt;/h1&gt;\n&lt;h2&gt;Materia: Evaluación de los los Aprendizajes&lt;/h2&gt;\n&lt;hr /&gt;\n&lt;p&gt;Docente: Mgs. Sonia Zhadira Celi&lt;/p&gt;\n&lt;p&gt;Alumno: Ronaldo Lenin Piedra Vega&lt;/p&gt;\n&lt;p&gt;Carrera: Pedagogía de las Ciencias Experimentales - Informática&lt;/p&gt;\n&lt;p&gt;Quinto Ciclo&lt;/p&gt;\n&lt;/div&gt;\n&lt;h2&gt;Tipos de preguntas&lt;/h2&gt;\n&lt;div class=\"question-item\"&gt;\n&lt;h3&gt;&lt;span style=\"color: #4caf50;\"&gt;1.&lt;/span&gt; Pregunta de Opción Simple&lt;/h3&gt;\n&lt;div class=\"instruction-box\"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Selecciona la opción que consideres correcta. &lt;strong&gt;Solo una respuesta es válida.&lt;/strong&gt;\n&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt; ¿Cuál es la finalidad principal de la evaluación formativa según el enfoque actual?&lt;/p&gt;\n&lt;/div&gt;\n&lt;iframe width=\"300\" height=\"1000\" src=\"{{context_path}}/20251122192002069F9D/Opcion_Simple._1.html\" id=\"q1-iframe\" class=\"question-iframe\"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div class=\"question-item\"&gt;\n&lt;h3&gt;&lt;span style=\"color: #ffc107;\"&gt;2.&lt;/span&gt; Pregunta de Opción Múltiple&lt;/h3&gt;\n&lt;div class=\"instruction-box\"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Marca todas las opciones que sean correctas. &lt;strong&gt;Puede haber más de una respuesta válida&lt;/strong&gt;.\n&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt; Seleccione las características que corresponden a una evaluación educativa.&lt;/p&gt;\n&lt;/div&gt;\n&lt;iframe width=\"300\" height=\"1000\" src=\"{{context_path}}/20251122192002069F9D/Opcion_Multiple._1.html\" id=\"q2-iframe\" class=\"question-iframe\"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div class=\"question-item\"&gt;\n&lt;h3&gt;&lt;span style=\"color: #2196f3;\"&gt;3.&lt;/span&gt; Seleccionar la Mejor Respuesta&lt;/h3&gt;\n&lt;div class=\"instruction-box\"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; De todas las opciones, selecciona la que &lt;strong&gt;mejor &lt;/strong&gt;responda la pregunta.\n&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt; ¿Qué distingue principalmente la evaluación educativa de la mera calificación?&lt;/p&gt;\n&lt;/div&gt;\n&lt;iframe width=\"300\" height=\"1000\" src=\"{{context_path}}/20251122192002069F9D/Mejor_respuesta._1.html\" id=\"q3-iframe\" class=\"question-iframe\"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div class=\"question-item\"&gt;\n&lt;h3&gt;&lt;span style=\"color: #e91e63;\"&gt;4.&lt;/span&gt; Pregunta de Ordenamiento&lt;/h3&gt;\n&lt;div class=\"instruction-box\"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Ordena cronológicamente los elementos en la secuencia correcta, del primero al último aporte.\n&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt; Ordene estos aportes dentro de la evolución del concepto de evaluación.&lt;/p&gt;\n&lt;/div&gt;\n&lt;iframe width=\"400\" height=\"1000\" src=\"{{context_path}}/20251122192002069F9D/Pregunta_de_Ordenamiento._1.html\" id=\"q4-iframe\" class=\"question-iframe\"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div class=\"question-item\"&gt;\n&lt;h3&gt;&lt;span style=\"color: #9c27b0;\"&gt;5.&lt;/span&gt; Pregunta de Respuesta Libre&lt;/h3&gt;\n&lt;div class=\"instruction-box\"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Explica tu respuesta en el espacio proporcionado. Sé claro y conciso.\n&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt; Explique brevemente qué significa que la evaluación sea “criterial”.&lt;/p&gt;\n&lt;/div&gt;\n&lt;iframe width=\"500\" height=\"1000\" src=\"{{context_path}}/20251122192002069F9D/Respuesta_Libre._1.html\" id=\"q5-iframe\" class=\"question-iframe\"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div class=\"question-item\"&gt;\n&lt;h3&gt;&lt;span style=\"color: #ff5722;\"&gt;6.&lt;/span&gt; Seleccionar la Respuesta Incorrecta&lt;/h3&gt;\n&lt;div class=\"instruction-box\"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; De todas las opciones, selecciona la que &lt;strong&gt;NO es una función&lt;/strong&gt; o no corresponde al contexto.\n&lt;p&gt;&lt;strong&gt;Pregunta:&lt;/strong&gt; ¿Cuál de las siguientes NO es una función de la evaluación educativa?&lt;/p&gt;\n&lt;/div&gt;\n&lt;iframe width=\"300\" height=\"1000\" src=\"{{context_path}}/20251122192002069F9D/Respuesta_Incorrecta._1.html\" id=\"q6-iframe\" class=\"question-iframe\"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div class=\"question-item\"&gt;\n&lt;h3&gt;&lt;span style=\"color: #009688;\"&gt;7.&lt;/span&gt; Pregunta con Base Común&lt;/h3&gt;\n&lt;div class=\"instruction-box\"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; &lt;strong&gt;Lee cuidadosamente el texto base&lt;/strong&gt; y luego responde las preguntas relacionadas dentro del formulario.\n&lt;p&gt;&lt;strong&gt;Texto base:&lt;/strong&gt; “La evaluación educativa actual se concibe como un proceso sistemático integrado al aprendizaje, cuyo fin es regular, orientar y mejorar los procesos educativos. Su carácter formativo la convierte en una herramienta clave para la toma de decisiones y para favorecer el progreso del estudiante.”&lt;/p&gt;\n&lt;/div&gt;\n&lt;iframe width=\"400\" height=\"1000\" src=\"{{context_path}}/20251122192002069F9D/Base_Comun._1.html\" id=\"q7-iframe\" class=\"question-iframe\"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div class=\"question-item\"&gt;\n&lt;h3&gt;&lt;span style=\"color: #607d8b;\"&gt;8.&lt;/span&gt; Pregunta de Verdadero o Falso&lt;/h3&gt;\n&lt;div class=\"instruction-box\"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Determina si la afirmación presentada es &lt;strong&gt;Verdadera&lt;/strong&gt; o &lt;strong&gt;Falsa&lt;/strong&gt;.\n&lt;p&gt;&lt;strong&gt;Afirmación:&lt;/strong&gt; “La evaluación normativa compara el desempeño del alumno con criterios previamente establecidos.”&lt;/p&gt;\n&lt;/div&gt;\n&lt;iframe width=\"200\" height=\"1000\" src=\"{{context_path}}/20251122192002069F9D/Verdadero_Falso._1.html\" id=\"q8-iframe\" class=\"question-iframe\"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div class=\"question-item\"&gt;\n&lt;h3&gt;&lt;span style=\"color: #795548;\"&gt;9.&lt;/span&gt; Pregunta de Emparejamiento&lt;/h3&gt;\n&lt;div class=\"instruction-box\"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Relaciona cada concepto de la columna izquierda con su definición en la columna derecha. Ingresa el número correspondiente.\n&lt;p&gt;&lt;strong&gt;Conceptos:&lt;/strong&gt; 1. Evaluación diagnóstica, 2. Evaluación procesual, 3. Evaluación sumativa.&lt;/p&gt;\n&lt;/div&gt;\n&lt;iframe width=\"300\" height=\"1000\" src=\"{{context_path}}/20251122192002069F9D/Emparejamiento._1.html\" id=\"q9-iframe\" class=\"question-iframe\"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;div class=\"question-item\"&gt;\n&lt;h3&gt;&lt;span style=\"color: #ff9800;\"&gt;10.&lt;/span&gt; Pregunta de Completar Ideas&lt;/h3&gt;\n&lt;div class=\"instruction-box\"&gt;&lt;strong&gt;📋 Instrucción:&lt;/strong&gt; Lee la frase incompleta y escribe la palabra o concepto que falta para completarla correctamente.&lt;/div&gt;\n&lt;iframe width=\"500\" height=\"1000\" src=\"{{context_path}}/20251122192002069F9D/Completar_Ideas._1.html\" id=\"q10-iframe\" class=\"question-iframe\"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure></odeNavStructures></ode>
